@@ -24,6 +24,8 @@ on boot
     setprop usb.product.adb 0ff9
     setprop usb.product.mtpadb 0ca8
 
+    write /proc/sys/kernel//hung_task_timeout_secs 0
+
     start htcbatt
 
 on charger
