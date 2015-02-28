@@ -102,6 +102,8 @@ WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/bcmdhd/parameters/firmware_path"
 # rmt_storage
 BOARD_USES_LEGACY_MMAP := true
 
+# Recovery
+TARGET_RECOVERY_DEVICE_DIRS += device/htc/msm7x30-common
 # SELinux
 #BOARD_SEPOLICY_DIRS += \
 #    device/htc/msm7x30-common/sepolicy
